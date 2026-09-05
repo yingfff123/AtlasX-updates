@@ -1,33 +1,83 @@
 # AtlasX Updates
 
-公开升级通道。把升级包传到本仓 **Releases**，用户在 Web「设置 → 系统」即可检查 / 下载 / 应用。
+**AtlasX 官方升级通道**
 
-> `AtlasX-docker` 若保持 Private，不要把 channel 只放在那边——匿名拉不到。
+本仓库仅用于发布应用升级包与更新清单（`channel.json`）。部署、源码与 Docker 镜像不在此托管。
 
-## 用户配置
+---
+
+## 用户：一键更新
+
+在运行中的 AtlasX 实例配置更新通道后，于 Web 控制台完成检查与应用：
+
+**设置 → 系统 → 检查更新 → 下载升级包 → 应用**
+
+推荐环境变量：
 
 ```bash
 RADAR_UPDATE_CHANNEL_URL=https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@main/channel.json
+RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 ```
 
-## 你怎么上传
+| 资源 | 地址 |
+|------|------|
+| 更新清单（推荐） | [channel.json · jsDelivr](https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@main/channel.json) |
+| 更新清单（GitHub） | [channel.json · raw](https://raw.githubusercontent.com/yingfff123/AtlasX-updates/main/channel.json) |
+| 最新升级包 | [atlasx-upgrade.zip](https://github.com/yingfff123/AtlasX-updates/releases/latest/download/atlasx-upgrade.zip) |
+| 版本发布页 | [Releases](https://github.com/yingfff123/AtlasX-updates/releases) |
+
+应用升级包后请重启 **web** 与 **worker** 进程（或 `docker compose restart web worker`）使变更生效。
+
+---
+
+## 发布说明（维护者）
+
+1. 按 AtlasX 升级包规范打包（`manifest.json` + `payload/`，路径须在应用白名单内）。
+2. 创建 Release，资源文件名建议固定为 **`atlasx-upgrade.zip`**，便于 `latest` 直链稳定。
+3. 更新本仓库根目录 `channel.json` 字段：`version`、`notes`、`download_url`、`sha256`（zip 的 SHA-256）。
+
+示例：
 
 ```bash
-gh release create upgrade-0.2.5 ./atlasx-upgrade.zip \
+gh release create upgrade-x.y.z ./atlasx-upgrade.zip \
   --repo yingfff123/AtlasX-updates \
-  --title "Upgrade 0.2.5" \
-  --notes "变更说明"
+  --title "AtlasX x.y.z" \
+  --notes "发布说明"
 ```
 
-然后改本仓根目录 `channel.json` 的 `version` / `download_url` / `sha256` 并提交。
+`channel.json` 示例结构：
 
-资源名建议固定为 **`atlasx-upgrade.zip`**，这样 latest 链接不用改。
+```json
+{
+  "name": "AtlasX",
+  "version": "x.y.z",
+  "notes": "本版本变更摘要",
+  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-x.y.z/atlasx-upgrade.zip",
+  "sha256": "<sha256>"
+}
+```
 
-## 链接
+---
 
-| 用途 | URL |
-|------|-----|
-| 检查更新（推荐） | https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@main/channel.json |
-| 检查更新（raw） | https://raw.githubusercontent.com/yingfff123/AtlasX-updates/main/channel.json |
-| 最新包 | https://github.com/yingfff123/AtlasX-updates/releases/latest/download/atlasx-upgrade.zip |
-| Releases | https://github.com/yingfff123/AtlasX-updates/releases |
+## 相关项目
+
+| 项目 | 说明 |
+|------|------|
+| [AtlasX-docker](https://github.com/yingfff123/AtlasX-docker) | Linux / Docker 一键部署 |
+| 容器镜像 | `ghcr.io/yingfff123/atlasx-docker` |
+
+Docker 整镜像升级请使用部署仓的 `update.sh`（调整 `ATLASX_IMAGE_TAG`），与本仓库的 zip 升级包相互独立。
+
+---
+
+## 安全
+
+- 请仅从本仓库 Releases 或经官方 `channel.json` 声明的 `download_url` 获取升级包。
+- 应用端可对 `sha256` 做完整性校验；请勿信任来源不明的第三方压缩包。
+- 本仓库不存放密钥、`.env` 或签发私钥。
+
+---
+
+## License
+
+与 AtlasX 主项目一致（MIT）。
