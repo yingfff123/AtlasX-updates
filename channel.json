@@ -1,7 +1,7 @@
 {
   "name": "AtlasX",
   "version": "0.2.5",
-  "notes": "测试升级通道：0.2.4→0.2.5。下载应用后请重启 web/worker。",
+  "notes": "测试升级包已上传，可下载应用。",
   "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.2.5/atlasx-upgrade.zip",
-  "sha256": "85cc9fc808489f4e5c878c8199c5b1423cf5c37ee9eb56b14f2f391bf8f97da3"
+  "sha256": "23babd57000683b5383e72c23c1255f9e79f572b7f16eec441311380673fc02b"
 }
