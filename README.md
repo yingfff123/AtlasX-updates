@@ -63,8 +63,8 @@ gh release create upgrade-x.y.z ./atlasx-upgrade.zip \
 
 | 项目 | 说明 |
 |------|------|
-| [AtlasX-docker](https://github.com/yingfff123/AtlasX-docker) | Linux / Docker 一键部署 |
-| 容器镜像 | `ghcr.io/yingfff123/atlasx-docker` |
+| [AtlasX](https://github.com/yingfff123/AtlasX) | Linux / Docker 一键部署 |
+| 容器镜像 | `ghcr.io/yingfff123/atlasx` |
 
 Docker 整镜像升级请使用部署仓的 `update.sh`（调整 `ATLASX_IMAGE_TAG`），与本仓库的 zip 升级包相互独立。
 
