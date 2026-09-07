@@ -2,7 +2,7 @@
   "name": "AtlasX",
   "version": "0.2.5.1",
   "notes": "独立补丁：去掉扫描策略 Community/Pro 共用说明文案。",
-  "download_url": "https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@007e3e9bd26e12f21e97ffe0295d513090c8f728/packs/atlasx-upgrade-0.2.5.1.zip",
+  "download_url": "https://raw.githubusercontent.com/yingfff123/AtlasX-updates/f8d397806755608e030e27aa1719a1c0d6dd0463/packs/atlasx-upgrade-0.2.5.1-standalone.zip",
   "sha256": "542c2e3feb7f3f6bebd24dd82d5091a6d1ae7ce017c2213eb049ad84908f8c42"
 }
 
