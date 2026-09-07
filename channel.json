@@ -1,8 +1,8 @@
 {
   "name": "AtlasX",
   "version": "0.2.5",
-  "notes": "删除任务级联清理 + 系统更新自动检查/同版本补丁/服务端 sha256。",
+  "notes": "应用升级包不再强依赖客户端 sha256；GitHub digest 覆盖 jsDelivr 脏缓存。",
   "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.2.5/atlasx-upgrade.zip",
-  "sha256": "06f4101a89d05f366c0525db057d8989e27a1c4a44df649e67a95cd5ab2c9a06"
+  "sha256": "6aae03c481d77e4e81f351ece1208ec436cfa44eac3de6da28b884383cb841e7"
 }
 
