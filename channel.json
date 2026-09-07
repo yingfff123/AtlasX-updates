@@ -1,8 +1,8 @@
 {
   "name": "AtlasX",
-  "version": "0.2.5.0",
-  "notes": "应用升级后自动重启；含级联删除与系统更新修复。下载走 jsDelivr（避免 GitHub SSL 中断）。",
-  "download_url": "https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@778c50f8438d5e5a84a760b64d20151c93d9a0d9/packs/atlasx-upgrade-0.2.5.0.zip",
-  "sha256": "cdc5be811e0ee8f36b20f9dd433c5502dcf9a4cc82ae5fdea6034fa0866a9caf"
+  "version": "0.2.5.1",
+  "notes": "独立补丁：去掉扫描策略 Community/Pro 共用说明文案。",
+  "download_url": "https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@007e3e9bd26e12f21e97ffe0295d513090c8f728/packs/atlasx-upgrade-0.2.5.1.zip",
+  "sha256": "542c2e3feb7f3f6bebd24dd82d5091a6d1ae7ce017c2213eb049ad84908f8c42"
 }
 
