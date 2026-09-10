@@ -1,8 +1,9 @@
 {
   "name": "AtlasX",
-  "version": "0.2.5.0",
-  "notes": "应用升级后自动重启；含级联删除与系统更新修复。",
-  "download_url": "https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@05333f5db71b9996189e679a0c06ef3ff592430c/packs/atlasx-upgrade-0.2.5.0.zip",
-  "sha256": "cdc5be811e0ee8f36b20f9dd433c5502dcf9a4cc82ae5fdea6034fa0866a9caf"
+  "version": "0.2.8",
+  "notes": "veo 0-hit 指纹戳；升级自动重启。0.2.8 之前 Docker 须手动: sudo systemctl restart docker。详见 README 升级台账。",
+  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.2.8/atlasx-upgrade.zip",
+  "sha256": "62c5fe67f28e804b6cd404e99192f6e144eaa0e06744e984b369903d21270625",
+  "requires": "0.2.7.4",
+  "force_upgrade": true
 }
-
