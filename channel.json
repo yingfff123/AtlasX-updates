@@ -1,9 +1,7 @@
 {
   "name": "AtlasX",
-  "version": "0.2.8",
-  "notes": "veo 0-hit 指纹戳；升级自动重启。0.2.8 之前 Docker 须手动: sudo systemctl restart docker。详见 README 升级台账。",
-  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.2.8/atlasx-upgrade.zip",
-  "sha256": "62c5fe67f28e804b6cd404e99192f6e144eaa0e06744e984b369903d21270625",
-  "requires": "0.2.7.4",
-  "force_upgrade": true
+  "version": "0.2.9",
+  "notes": "0.2.9：本地资产实证新栈手测清单（aspnet/快普、国采 layui、Grafana、RabbitMQ、Dify、FastAdmin、Nacos、Eureka、Actuator、APISIX、YApi）。requires 0.2.8。",
+  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/latest/download/atlasx-upgrade.zip",
+  "sha256": "ed230d8325e3a4fcc681d9c596e62f5da831495a95f2d56011c2c282a74e620b"
 }
