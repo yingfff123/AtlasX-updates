@@ -30,32 +30,6 @@ RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 
 ---
 
-## 发布说明（维护者）
-
-1. 按 AtlasX 升级包规范打包（`manifest.json` + `payload/`，路径须在应用白名单内）。
-2. 创建 Release，资源文件名建议固定为 **`atlasx-upgrade.zip`**，便于 `latest` 直链稳定。
-3. 更新本仓库根目录 `channel.json` 字段：`version`、`notes`、`download_url`、`sha256`（zip 的 SHA-256）。
-
-示例：
-
-```bash
-gh release create upgrade-x.y.z ./atlasx-upgrade.zip \
-  --repo yingfff123/AtlasX-updates \
-  --title "AtlasX x.y.z" \
-  --notes "发布说明"
-```
-
-`channel.json` 示例结构：
-
-```json
-{
-  "name": "AtlasX",
-  "version": "x.y.z",
-  "notes": "本版本变更摘要",
-  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-x.y.z/atlasx-upgrade.zip",
-  "sha256": "<sha256>"
-}
-```
 
 ---
 
