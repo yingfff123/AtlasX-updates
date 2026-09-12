@@ -1,9 +1,9 @@
 {
   "name": "AtlasX",
   "version": "0.3.1",
-  "notes": "路径发现热更：终态耗尽 + 波级隔离，修扫描卡死与 OOM；Docker 热更同步到 worker。",
+  "notes": "路径发现热更：终态耗尽 + 波级隔离；瘦快照补 risk_level；Docker worker 同步。已装旧 0.3.1 请再应用。",
   "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.3.1/atlasx-upgrade.zip",
-  "sha256": "0e29e204ef3225ba2ae6c22db0b9af9ce38da459022446052af5ede48f5e08ff",
+  "sha256": "c2b0f4e7202062a507f6fdb55edba3e42605a1318963f714486376ed3b94a432",
   "requires": "0.2.9",
   "force_upgrade": true
 }
