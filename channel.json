@@ -3,7 +3,7 @@
   "version": "0.2.9",
   "notes": "CE / Pro 均可升级；栈手测清单扩充。",
   "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.2.9/atlasx-upgrade.zip",
-  "sha256": "a35d03de8e183b904732b3f00b67aed98e0130ed206bf9e47715bdbc080fd07b",
+  "sha256": "27a7577dc00c5617d3ab8280162743257ca66afa6a1ad2d91b1c6e38bac0b696",
   "requires": "0.2.8",
   "force_upgrade": true
 }
