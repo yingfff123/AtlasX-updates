@@ -23,7 +23,7 @@ RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 |------|------|
 | 更新清单（推荐） | [channel.json · jsDelivr](https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@main/channel.json) |
 | 更新清单（GitHub） | [channel.json · raw](https://raw.githubusercontent.com/yingfff123/AtlasX-updates/main/channel.json) |
-| 最新升级包 | [Releases · upgrade-0.3.1](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.1) |
+| 最新升级包 | [Releases · upgrade-0.3.2](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.2) |
 | 版本发布页 | [Releases](https://github.com/yingfff123/AtlasX-updates/releases) |
 
 ### 重启说明
@@ -39,7 +39,8 @@ RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 
 | 日期 | 版本 | 内容 |
 |------|------|------|
-| 2026-09-12 | **0.3.1**（当前） | 路径发现热更：终态耗尽 + 波级隔离；瘦快照补 risk_level；Docker worker 同步。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.1) · sha256 `c2b0f4e7202062a507f6fdb55edba3e42605a1318963f714486376ed3b94a432` |
+| 2026-09-13 | **0.3.2**（当前） | 路径发现修补：假耗尽 / 浅爬全程 / 进度口径。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.2) · sha256 `4fcf6dec11b0250083c617efecd0fdd02857849db000c9fcda64593fa7a9db0b` |
+| 2026-09-12 | 0.3.1 | 路径发现热更：终态耗尽 + 波级隔离；瘦快照补 risk_level；Docker worker 同步。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.2) · sha256 `c2b0f4e7202062a507f6fdb55edba3e42605a1318963f714486376ed3b94a432` |
 | 2026-09-12 | 0.2.9 | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256 `27a7577dc00c5617d3ab8280162743257ca66afa6a1ad2d91b1c6e38bac0b696` | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256  | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256 `a35d03de8e183b904732b3f00b67aed98e0130ed206bf9e47715bdbc080fd07b` |
 | 2026-09-10 | 0.2.8 | veo 合法 0 命中打空指纹戳；升级自动重启（macOS `kickstart` / Docker）；`requires: 0.2.7.4`。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.8) · sha256 `62c5fe67f28e804b6cd404e99192f6e144eaa0e06744e984b369903d21270625` |
 | 2026-09-08 | 0.2.7.1 | 多任务稳定性：pipeline / worker / db / collectors / paths |
