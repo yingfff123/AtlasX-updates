@@ -39,7 +39,7 @@ RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 
 | 日期 | 版本 | 内容 |
 |------|------|------|
-| 2026-09-12 | **0.3.1**（当前） | 路径发现热更：终态耗尽 + 波级隔离，修扫描卡死与 OOM；不砍资产不砍路径。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.1) · sha256 `e5387391faeaac7b6b1794504274de77010b45af437e9dc88f2dbc5f51b59ebe` |
+| 2026-09-12 | **0.3.1**（当前） | 路径发现热更：终态耗尽 + 波级隔离，修扫描卡死与 OOM。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.1) · sha256 `e5387391faeaac7b6b1794504274de77010b45af437e9dc88f2dbc5f51b59ebe` |
 | 2026-09-12 | 0.2.9 | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256 `27a7577dc00c5617d3ab8280162743257ca66afa6a1ad2d91b1c6e38bac0b696` | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256  | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256 `a35d03de8e183b904732b3f00b67aed98e0130ed206bf9e47715bdbc080fd07b` |
 | 2026-09-10 | 0.2.8 | veo 合法 0 命中打空指纹戳；升级自动重启（macOS `kickstart` / Docker）；`requires: 0.2.7.4`。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.8) · sha256 `62c5fe67f28e804b6cd404e99192f6e144eaa0e06744e984b369903d21270625` |
 | 2026-09-08 | 0.2.7.1 | 多任务稳定性：pipeline / worker / db / collectors / paths |
