@@ -1,7 +1,7 @@
 {
   "name": "AtlasX",
   "version": "0.2.9",
-  "notes": "CE+Pro 均可升主包；CE 跳过 _impl 不整包拒绝。Pro 栈清单见 Release 附加包。",
+  "notes": "CE / Pro 均可升级；栈手测清单扩充。",
   "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.2.9/atlasx-upgrade.zip",
   "sha256": "a35d03de8e183b904732b3f00b67aed98e0130ed206bf9e47715bdbc080fd07b",
   "requires": "0.2.8",
