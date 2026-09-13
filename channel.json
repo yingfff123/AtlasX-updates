@@ -1,8 +1,8 @@
 {
   "name": "AtlasX",
-  "version": "0.3.2",
-  "notes": "路径发现修补 + Docker worker 共享卷热更同步（修 web 新 worker 旧）。",
-  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.3.2/atlasx-upgrade.zip",
-  "sha256": "9b234fe8c07cb012bfc833e4ef075aca40465fe62ef9ab158ec51fee453f683d",
-  "requires": "0.3.1"
+  "version": "0.3.3",
+  "notes": "多任务并发稳定性 + FOFA 单页 10000 条 + 泛解析/LLM 空转/网关兜底降噪 + 升级分叉自愈。",
+  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.3.3/atlasx-upgrade.zip",
+  "sha256": "4958cd263b038ed7bcba9a91c37c57857a5d6f8d4ffe1ed0f4a42e7b68adc4af",
+  "requires": "0.3.2"
 }
