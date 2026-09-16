@@ -1,9 +1,9 @@
 {
   "name": "AtlasX",
-  "version": "0.4.1",
-  "notes": "全量修复包：0.2.9→0.3.5 累积超集；任意 ≥0.2.8 直接升；含心跳 sidecar、idle-in-tx 收口、付费源 cap 反稀释、升级执行位还原。",
-  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.4.1/atlasx-upgrade.zip",
-  "sha256": "eca0372f542e6148e2275188bf1cc483d62cc7b157ed849bef35b00ac5d7284d",
+  "version": "0.4.2",
+  "notes": "功能更新：系统时间统一北京时间（UTC+8）；资产筛选新增排除语法 title!=值 / title!:值（不等于/不包含，大量相似资产一键排除）；更新推送新增活动公告（GitHub Star 领 Pro 三天内测）。含 0.2.9→0.4.1 全部修复累积超集，≥0.2.8 一步直升。",
+  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.4.2/atlasx-upgrade.zip",
+  "sha256": "d5dcace3b2ddf8ec59e15d8434f159b6b1afa938c7fd497c4b7e1679217bb498",
   "requires": "",
   "force_upgrade": true
 }
