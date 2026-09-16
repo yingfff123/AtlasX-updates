@@ -1,8 +1,9 @@
 {
   "name": "AtlasX",
-  "version": "0.3.4",
-  "notes": "存活探测墙钟护栏：单资产 120s + 阶段总预算 1800s，进度不再钉在 99% · 未完成；收编 scan 158 paths 回写修复与 FOFA 单页 1w 条。",
-  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.3.4/atlasx-upgrade.zip",
-  "sha256": "357d5451b6d5fd4c723249f7e2e70d984e3e43405d7ee4db01f43abc82e6f348",
-  "requires": "0.3.3"
+  "version": "0.4.1",
+  "notes": "全量修复包：0.2.9→0.3.5 累积超集；任意 ≥0.2.8 直接升；含心跳 sidecar、idle-in-tx 收口、付费源 cap 反稀释、升级执行位还原。",
+  "download_url": "https://github.com/yingfff123/AtlasX-updates/releases/download/upgrade-0.4.1/atlasx-upgrade.zip",
+  "sha256": "eca0372f542e6148e2275188bf1cc483d62cc7b157ed849bef35b00ac5d7284d",
+  "requires": "",
+  "force_upgrade": true
 }

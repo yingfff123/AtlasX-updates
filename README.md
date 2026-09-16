@@ -23,7 +23,7 @@ RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 |------|------|
 | 更新清单（推荐） | [channel.json · jsDelivr](https://cdn.jsdelivr.net/gh/yingfff123/AtlasX-updates@main/channel.json) |
 | 更新清单（GitHub） | [channel.json · raw](https://raw.githubusercontent.com/yingfff123/AtlasX-updates/main/channel.json) |
-| 最新升级包 | [Releases · upgrade-0.3.4](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.4) |
+| 最新升级包 | [Releases · upgrade-0.4.1](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.4.1) |
 | 版本发布页 | [Releases](https://github.com/yingfff123/AtlasX-updates/releases) |
 
 ### 重启说明
@@ -39,7 +39,8 @@ RADAR_UPDATE_GITHUB_REPO=yingfff123/AtlasX-updates
 
 | 日期 | 版本 | 内容 |
 |------|------|------|
-| 2026-09-14 | **0.3.4**（当前） | 存活探测墙钟护栏：单资产 120s + 阶段总预算 1800s，进度不钉 99%·未完成（run 160 复盘）。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.4) · sha256 `357d5451b6d5fd4c723249f7e2e70d984e3e43405d7ee4db01f43abc82e6f348` |
+| 2026-09-16 | **0.4.1**（当前） | 全量修复包（免逐版爬梯）：心跳 sidecar / idle-in-tx 收口 / FOFA cap 反稀释 / 升级执行位还原。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.4.1) · sha256 `eca0372f542e6148e2275188bf1cc483d62cc7b157ed849bef35b00ac5d7284d` |
+| 2026-09-14 | 0.3.4 | 存活探测墙钟护栏：单资产 120s + 阶段总预算 1800s，进度不钉 99%·未完成（run 160 复盘）。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.4) · sha256 `357d5451b6d5fd4c723249f7e2e70d984e3e43405d7ee4db01f43abc82e6f348` |
 | 2026-09-13 | 0.3.2 | 路径发现修补 + worker 共享卷热更同步。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.2) · sha256 `9b234fe8c07cb012bfc833e4ef075aca40465fe62ef9ab158ec51fee453f683d` |
 | 2026-09-12 | 0.3.1 | 路径发现热更：终态耗尽 + 波级隔离；瘦快照补 risk_level；Docker worker 同步。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.3.1) · sha256 `c2b0f4e7202062a507f6fdb55edba3e42605a1318963f714486376ed3b94a432` |
 | 2026-09-12 | 0.2.9 | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256 `27a7577dc00c5617d3ab8280162743257ca66afa6a1ad2d91b1c6e38bac0b696` | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256  | CE / Pro 均可升级；栈手测清单扩充。[Release](https://github.com/yingfff123/AtlasX-updates/releases/tag/upgrade-0.2.9) · sha256 `a35d03de8e183b904732b3f00b67aed98e0130ed206bf9e47715bdbc080fd07b` |
